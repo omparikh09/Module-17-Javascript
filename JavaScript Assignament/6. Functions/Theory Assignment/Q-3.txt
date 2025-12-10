@@ -1,0 +1,12 @@
+Question 3: Discuss the concept of parameters and return values in functions.
+
+ans :- 
+    1. Parameters :-
+        Parameters are placeholders or variables inside a function that receive values when the 
+        function is called.
+
+    2. Return Values :-
+        A function can send a value back to the place where it was called using the return 
+        keyword.
+
+    

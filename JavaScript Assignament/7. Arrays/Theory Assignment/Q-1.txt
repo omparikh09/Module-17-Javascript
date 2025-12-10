@@ -1,0 +1,11 @@
+Question 1: What is an array in JavaScript? How do you declare and initialize an array?
+
+ans :-
+    An array in JavaScript is a store multiple value in single variable. Arrays can hold 
+    different types of data such as numbers, strings, objects, or even other arrays
+
+    Each value in an array is stored at an index, and indexing starts from 0.
+
+    Declaration :-
+        let num = [1, 2, 3, 4, 5]
+

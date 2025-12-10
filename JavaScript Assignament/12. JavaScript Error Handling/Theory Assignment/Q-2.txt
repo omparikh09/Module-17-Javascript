@@ -1,0 +1,33 @@
+Question 2: Why is error handling important in JavaScript applications?
+
+ans :-
+    Error handling is important because it helps keep applications stable, user-friendly, and 
+    secure.
+    
+    Without proper error handling, even a small mistake can cause the entire program to crash.
+
+    1. Prevents Application Crashes :-
+        -> Errors can stop JavaScript execution.
+        -> Handling them ensures the app continues running smoothly.
+
+    2. Improves User Experience :-
+        -> Instead of showing confusing error messages or a blank screen, you can display friendly 
+        messages to the user.
+
+    3. Helps Debugging :-
+        Error handling allows developers to:
+            -> Log detailed error messages
+            -> Identify where and why errors occur
+            -> Fix issues faster
+
+    4. Maintains Application Flow
+        -> Even if something goes wrong, the program can still continue executing important code 
+        (like saving data or redirecting users).
+
+    5. Ensures Data Safety
+        -> Proper error handling prevents actions that might corrupt or lose data when an error 
+        occurs.
+
+    6. Makes the Application More Reliable
+        -> A well-handled error system improves overall software quality and reduces unexpected 
+        behavior.

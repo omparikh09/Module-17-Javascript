@@ -1,0 +1,15 @@
+Question 2: Explain the methods getElementById(), getElementsByClassName(), and querySelector()
+used to select elements from the DOM.
+
+ans :-  
+    1. getElementById() :-
+        -> Selects one element using its unique id.
+        -> Returns a single element object.
+
+    2. getElementsByClassName() :-
+        -> Selects all elements that have the given class name.
+        -> Returns an HTMLCollection (array-like, but not a real array).
+
+    3. querySelector() :-
+        ->Selects the first matching element based on a CSS selector.
+        ->Very flexible and powerful.

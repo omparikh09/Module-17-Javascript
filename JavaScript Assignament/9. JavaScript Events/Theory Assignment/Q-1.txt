@@ -1,0 +1,20 @@
+Question 1: What are JavaScript events? Explain the role of event listeners.
+
+ans :-
+    JavaScript events are actions that happen in the browser, which the JavaScript code can 
+    respond to
+
+    Clicking a button (click, dubleclick)
+    Typing in an input field (keyup, keypress, keydown)
+    Moving the mouse (mousemove)
+    Loading a webpage (load, unload)
+    Submitting a form (submit)
+
+    Role of Event Listeners :-
+        An event listener is a function that waits for a specific event to happen and then runs 
+        some code in response.
+
+    What event listeners do :-
+        Detect when an event happens
+        Listen for a specific event on a specific element
+        Execute a function when the event occurs

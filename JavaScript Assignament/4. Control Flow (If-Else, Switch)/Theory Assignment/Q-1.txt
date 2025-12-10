@@ -1,0 +1,27 @@
+Question 1: What is control flow in JavaScript? Explain how if-else statements work with an
+example.
+
+ans :- 
+    1. Control Flow :-
+        Control flow in JavaScript refers to the order in which the JavaScript code is executed.
+        By default, JavaScript runs code from top to bottom, line by line, but using control 
+        flow statements.
+
+    2. if-else Statements :-
+        if-else statements allow JavaScript to make decisions.
+            -> The if block runs only if the condition is true.
+            -> The else block runs only when if the condition is false.
+            -> Optional else if can be used to check multiple condition.
+
+        Example :-
+            let age = 18;
+
+            if (age >= 18) 
+            {
+                console.log("You are eligible to vote.");
+            } 
+            else 
+            {
+                console.log("You are not eligible to vote.");
+            }
+    

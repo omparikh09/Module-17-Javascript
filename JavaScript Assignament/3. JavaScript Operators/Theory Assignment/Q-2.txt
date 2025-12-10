@@ -1,0 +1,10 @@
+Question 2: What is the difference between == and === in JavaScript?
+
+ans :- 
+    1. == :-
+        -> Compares Only values, Not compare data types.
+        -> If the types are different, JavaScript will convert the values before comparing.
+
+    2. === :-
+        -> Compares both values and data types.
+        -> No type conversion happens.

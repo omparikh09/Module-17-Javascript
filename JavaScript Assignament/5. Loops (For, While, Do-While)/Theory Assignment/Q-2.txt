@@ -1,0 +1,16 @@
+Question 2: What is the difference between a while loop and a do-while loop?
+
+ans :-
+    While Loop :-
+        Condition checked first :- 
+            The loop evaluates the condition before executing the body.
+        
+        Execution guarantee :- 
+            If the condition is false at the start, the loop body may never run.
+    
+    Do While Loop :-
+        Condition checked after :- 
+            The loop executes the body once, then checks the condition.
+
+        Execution guarantee :- 
+            The loop body runs at least once, regardless of the condition.

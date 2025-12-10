@@ -1,0 +1,14 @@
+Question 2: Explain the methods push(), pop(), shift(), and unshift() used in arrays.
+
+ans :-
+    1. push() :-
+        Add one more elements to the end of an array.
+
+    2. pop() :-
+        Remove the last element from the array and returns it.
+
+    3. shift() :-
+        Removes the first element from an array and returns it.
+
+    4. unshift() :-
+        Adds one or more elements to the beginning of an array.

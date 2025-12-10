@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label>Enter Number 1:</label>
+    <input type="number" id="number1"><br><br>
+
+    <label>Enter Number 2:</label>
+    <input type="number" id="number2"><br><br>
+
+    <label>Select Operation:</label>
+    <select id="operation">
+        <option value="add">Addition</option>
+        <option value="sub">Subtraction</option>
+        <option value="mul">Multiplication</option>
+        <option value="div">Division</option>
+        <option value="compare">Comparison</option>
+        <option value="logic">Logical Check</option>
+    </select><br><br>
+
+    <button onclick="calculate()">Calculate</button><br><br>
+
+    <b id="output"></b>
+
+    <script>
+
+        function calculate() {
+            let op = document.getElementById("operation").value;
+
+            if (op == "add") {
+                add();
+            } 
+            else if (op == "sub") {
+                sub();
+            } 
+            else if (op == "mul") {
+                mul();
+            } 
+            else if (op == "div") {
+                div();
+            } 
+            else if (op == "compare") {
+                compare();
+            } 
+            else if (op == "logic") {
+                logicCheck();
+            }
+        }
+
+        function add() {
+            let inp1 = Number(document.getElementById("number1").value);
+            let inp2 = Number(document.getElementById("number2").value);
+            document.getElementById("output").innerHTML = "Addition: " + (inp1 + inp2);
+        }
+
+        function sub() {
+            let inp1 = Number(document.getElementById("number1").value);
+            let inp2 = Number(document.getElementById("number2").value);
+            document.getElementById("output").innerHTML = "Subtraction: " + (inp1 - inp2);
+        }
+
+        function mul() {
+            let inp1 = Number(document.getElementById("number1").value);
+            let inp2 = Number(document.getElementById("number2").value);
+            document.getElementById("output").innerHTML = "Multiplication: " + (inp1 * inp2);
+        }
+
+        function div() {
+            let inp1 = Number(document.getElementById("number1").value);
+            let inp2 = Number(document.getElementById("number2").value);
+
+            if (inp2 == 0) {
+                document.getElementById("output").innerHTML = "Error: Cannot divide by zero!";
+            } else {
+                document.getElementById("output").innerHTML = "Division: " + (inp1 / inp2);
+            }
+        }
+
+        function compare() {
+            let inp1 = Number(document.getElementById("number1").value);
+            let inp2 = Number(document.getElementById("number2").value);
+
+            let text = `Are they equal? ${inp1 == inp2} <br>Is first greater? ${inp1 > inp2}`;
+            document.getElementById("output").innerHTML = text;
+        }
+
+        function logicCheck() {
+            let inp1 = Number(document.getElementById("number1").value);
+            let inp2 = Number(document.getElementById("number2").value);
+
+            let result = (inp1 > 10) && (inp2 < 5);
+            document.getElementById("output").innerHTML = "Logical Check (a > 10 AND b < 5): " + result;
+        }
+
+    </script>
+
+</body>
+</html>

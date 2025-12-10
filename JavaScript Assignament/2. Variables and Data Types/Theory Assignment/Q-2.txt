@@ -1,0 +1,30 @@
+Question 2: Explain the different data types in JavaScript. Provide examples for each.
+
+ans :-
+    A data type is to store different type of values in variable in JavaScript, there are mainly two types:
+    primitive types and non-primitive types.
+
+    1. Primitive Data Type :-
+        
+        1. String :-
+            Used to store character set of data is closed in cotes ("").
+
+        2. Number :- 
+            Used to store a integers and decimal value.
+
+        3. Boolean :-
+            Used to store a true or false value.
+        
+        4. Undefined :- 
+            A variable is declare but not a assigned a value.
+        
+        5. Null :- 
+            Intentionally assign a value Null in variable.
+            
+    2. Non-Primitive Data Type :-
+        
+        1. Object :- 
+            Used to store a multiple value as key value pair.
+
+        2. Array :- 
+            Used to store a different type of value in one variable.

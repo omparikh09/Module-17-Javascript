@@ -1,0 +1,9 @@
+Question 1: What are variables in JavaScript? How do you declare a variable using var, let,
+and const?
+
+ans :-
+    Variable is use to store a data. There are three types to declare a variable in JavaScript.
+
+    1. var :- It's a global scope. It can be redeclare or reassingn a value.
+    2. Let :- It's a block scope. It can redeclare a value.
+    3. const :- It's a block scope. It cannot be redeclare or reassingn a value.

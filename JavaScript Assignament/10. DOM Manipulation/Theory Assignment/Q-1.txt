@@ -1,0 +1,20 @@
+Question 1: What is the DOM (Document Object Model) in JavaScript? How does JavaScript
+interact with the DOM?
+
+ans :- 
+    1. The DOM (Document Object Model) is a programming interface provided by the browser that 
+    represents a webpage as a tree-like structure of objects.
+
+    -> Every element in the HTML (like <h1>, <p>, <div>, <button>) becomes a node or object in 
+    the DOM.
+
+    -> JavaScript can use this structure to access, modify, add, or delete elements on the 
+    webpage.
+
+    2. JavaScript interacts with the DOM using various methods and properties to change.
+
+        1. HTML Content :-
+            document.getElementById("demo").innerHTML = "Hello!";
+
+        2. CSS Content :- 
+            document.querySelector('p').style.color = "red";

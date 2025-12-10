@@ -1,0 +1,18 @@
+Question 1: What is an object in JavaScript? How are objects different from arrays?
+
+ans :- 
+    In JavaScript object is a key and value pairs used to structured or reletade data.Each 
+    value inside an object is stored as a property (key:value format).
+
+    -> Difference :-
+        1. object :-
+            -> key and value pairs.
+            -> Access using property name (key).
+            -> Not stored to be in order.
+            -> When storing related information about an item.
+
+        2. arrays :-
+            -> Orderd list of value.
+            -> Access using index value.
+            -> Values are stored in order.
+            -> When storing multiple similar values.

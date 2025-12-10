@@ -1,0 +1,13 @@
+Question 2: Explain how to access and update object properties using dot notation and bracket 
+notation
+
+ans :-
+    1. Dot Notation :-
+        This is the most common and easy way to access or change a property in an object.
+
+    2. Bracket Notation :-
+
+    Used when:
+        The property name has spaces.
+        The property name is dynamic (stored in a variable).
+        The key is not a valid variable name. 
